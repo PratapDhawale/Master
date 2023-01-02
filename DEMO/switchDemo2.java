@@ -1,0 +1,23 @@
+class switchDemo2
+{
+	public static void main(String[] args) 
+	{
+		int b=1010;
+	//	byte a=100;
+		switch(b)
+		{
+			case 100:
+				System.out.println("case 1010");
+			break;
+			case 10:
+				System.out.println("case 1010");
+			break;
+			case 127:
+				System.out.println("case 1010");
+			break;
+			
+			default:
+				System.out.println("default st.");
+		}
+	}
+}
